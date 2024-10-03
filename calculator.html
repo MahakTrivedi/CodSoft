@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/calculatorcss.css">
+</head>
+<body>
+    <div class="calculator">
+        <div id="calc-color">
+        <form action="" id="display">
+            <input type="text" id="show" value="" placeholder="0">
+            <br>
+            <input type="button" id="AC" class="color" value="AC"  onclick="display.show.value =' ' ">
+            <input type="button" id="del"name="" class="color" value="DEL"  onclick="display.show.value =display.show.value.tostring().slice(0,-1)">
+            <input type="button" id="plus"name="" class="color" value="."  onclick="display.show.value +='.'">
+            <input type="button"id="modulo" name="" class="color" value="%"  onclick="display.show.value +='%'">
+            <br>
+            <input type="button"  name="" class="btn" value="1" onclick="display.show.value +='1'">
+            <input type="button" name="" class="btn" value="2" onclick="display.show.value +='2'">
+            <input type="button" name="" class="btn" value="3" onclick="display.show.value +='3'">
+            <input type="button" id="divide"name="" class="color" value="/"  onclick="display.show.value +='/'">
+            <br>
+            <input type="button" name="" class="btn" value="4"  onclick="display.show.value +='4'">
+            <input type="button" name="" class="btn" value="5"  onclick="display.show.value +='5'">
+            <input type="button" name="" class="btn" value="6"  onclick="display.show.value +='6'">
+            <input type="button"id="multiply" name="" class="color" value="*"  onclick="display.show.value +='*'">
+            <br>
+            <input type="button" name="" class="btn" value="7"  onclick="display.show.value +='7'">
+            <input type="button" name="" class="btn" value="8"  onclick="display.show.value +='8'">
+            <input type="button" name="" class="btn" value="9"  onclick="display.show.value +='9'">
+            <input type="button" id="minus"name="" class="color" value="-"  onclick="display.show.value +='-'">
+            <br>
+            <input type="button" name="" class="btn" value="00"  onclick="display.show.value +='00'">
+            <input type="button" name="" class="btn" value="0"  onclick="display.show.value +='0'">
+            <input type="button" id="equalto"  name="" class="color" value="="  onclick="display.show.value =eval(display.show.value)">
+            <input type="button" id="plus" name="" class="color" value="+"  onclick="display.show.value +='+'">
+            <br>
+        </form>
+                  
+    </div>
+</div>
+</body>
+</html>
